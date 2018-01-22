@@ -1,0 +1,213 @@
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  margin: -100px -40% 0 -150px;
+  text-align: center;
+}
+
+.clock {
+  display: inline;
+  font-size: 70pt;
+  margin: 10px;
+  color: white;
+}
+
+body {
+  background: url(../pictures/meme1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#meme1 {
+  background: url(../pictures/meme2.jpg);
+  height: 400px;
+  width: 480px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: none;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+#meme2 {
+  background: url(../pictures/meme3.jpg);
+  height: 400px;
+  width: 480px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: none;
+  margin-top: 35%;
+  margin-left: 2%;
+}
+
+#meme3 {
+  background: url(../pictures/meme4.jpg);
+  height: 400px;
+  width: 480px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: none;
+  margin-top: 35%;
+  margin-left: 65%;
+}
+
+#meme4 {
+  background: url(../pictures/meme5.jpg);
+  height: 400px;
+  width: 480px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: none;
+  margin-top: 5%;
+  margin-left: 65%;
+}
+
+@media all and (max-width: 480px) {
+  .clock {
+    display: inline;
+    font-size: 65pt;
+    margin: 10px;
+    color: white;
+  }
+  #meme1 {
+    background: url(../pictures/meme2.jpg);
+    height: 280px;
+    width: 380px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    margin-top: 5%;
+    margin-left: 19%;
+  }
+  #meme2 {
+    background: url(../pictures/meme3.jpg);
+    height: 400px;
+    width: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    margin-top: 93%;
+    margin-left: 2%;
+  }
+  #meme3 {
+    background: url(../pictures/meme4.jpg);
+    height: 400px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    margin-top: 10%;
+    margin-left: 7%;
+  }
+  #meme4 {
+    background: url(../pictures/meme5.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    margin-top: 90%;
+    margin-left: 10%;
+  }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .clock {
+    display: inline;
+    font-size: 65pt;
+    margin: 10px;
+    color: white;
+  }
+  #meme1 {
+    background: url(../pictures/meme2.jpg);
+    height: 280px;
+    width: 380px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    margin-top: 2%;
+    margin-left: 6%;
+  }
+  #meme2 {
+    background: url(../pictures/meme3.jpg);
+    height: 350px;
+    width: 360px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    margin-top: 65%;
+    margin-left: 2%;
+  }
+  #meme3 {
+    background: url(../pictures/meme4.jpg);
+    height: 300px;
+    width: 340px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    margin-top: 8%;
+    margin-left: 50%;
+  }
+  #meme4 {
+    background: url(../pictures/meme5.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    margin-top: 60%;
+    margin-left: 55%;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .clock {
+    display: inline;
+    font-size: 65pt;
+    margin: 10px;
+    color: white;
+  }
+  #meme1 {
+    background: url(../pictures/meme2.jpg);
+    height: 280px;
+    width: 380px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    margin-top: 2%;
+    margin-left: 8%;
+  }
+  #meme2 {
+    background: url(../pictures/meme3.jpg);
+    height: 400px;
+    width: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    margin-top: 3%;
+    margin-left: 50%;
+  }
+  #meme3 {
+    background: url(../pictures/meme4.jpg);
+    height: 400px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    margin-top: 50%;
+    margin-left: 5%;
+  }
+  #meme4 {
+    background: url(../pictures/meme5.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    margin-top: 45%;
+    margin-left: 55%;
+  }
+}
